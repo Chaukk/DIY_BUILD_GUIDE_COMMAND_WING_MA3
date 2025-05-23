@@ -1,0 +1,181 @@
+{
+    "keyboard_name": "grandma3",
+    "manufacturer": "Nathan Jans",
+    "usb": {
+        "vid": "0x1209",
+        "pid": "0x345C",
+        "device_version": "0.0.1",
+        "max_power": 100
+    },
+    "features": {
+        "bootmagic": true,
+        "console": false,
+        "command": false,
+        "mousekey": true,
+        "extrakey": true,
+        "nkro": true,
+        "audio": false,
+        "backlight": false
+    },
+    "build": {
+        "debounce_type": "sym_eager_pk"
+    },
+    "matrix_pins": {
+        "cols": ["LINE_PIN0", "LINE_PIN1", "LINE_PIN2", "LINE_PIN3", "LINE_PIN4", "LINE_PIN5", "LINE_PIN6", "LINE_PIN7", "LINE_PIN8", "LINE_PIN9" ],
+        "rows": ["LINE_PIN10", "LINE_PIN11", "LINE_PIN12", "LINE_PIN15", "LINE_PIN16", "LINE_PIN17", "LINE_PIN18", "LINE_PIN19", "LINE_PIN20", "LINE_PIN21", "LINE_PIN22", "LINE_PIN23", "LINE_PIN30","LINE_PIN28","LINE_PIN26", "LINE_PIN24"]
+
+    },
+    "diode_direction": "COL2ROW",
+    "debounce": 20,
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+            {"x": 2, "y": 0, "matrix": [0, 2]},
+            {"x": 3, "y": 0, "matrix": [0, 3]},
+            {"x": 4, "y": 0, "matrix": [0, 4]},
+            {"x": 5, "y": 0, "matrix": [0, 5]},
+            {"x": 6, "y": 0, "matrix": [0, 6]},
+            {"x": 7, "y": 0, "matrix": [0, 7]},
+            {"x": 8, "y": 0, "matrix": [0, 8]},
+            {"x": 9, "y": 0, "matrix": [0, 9]},
+
+            {"x": 2, "y": 1, "matrix": [1, 2]},
+            {"x": 3, "y": 1, "matrix": [1, 3]},
+            {"x": 4, "y": 1, "matrix": [1, 4]},
+            {"x": 5, "y": 1, "matrix": [1, 5]},
+            {"x": 6, "y": 1, "matrix": [1, 6]},
+            {"x": 7, "y": 1, "matrix": [1, 7]},
+            {"x": 8, "y": 1, "matrix": [1, 8]},
+            {"x": 9, "y": 1, "matrix": [1, 9]},
+
+            {"x": 0, "y": 2, "matrix": [2, 0]},
+            {"x": 1, "y": 2, "matrix": [2, 1]},
+            {"x": 2, "y": 2, "matrix": [2, 2]},
+            {"x": 3, "y": 2, "matrix": [2, 3]},
+            {"x": 4, "y": 2, "matrix": [2, 4]},
+            {"x": 5, "y": 2, "matrix": [2, 5]},
+            {"x": 6, "y": 2, "matrix": [2, 6]},
+            {"x": 7, "y": 2, "matrix": [2, 7]},
+            {"x": 8, "y": 2, "matrix": [2, 8]},
+            {"x": 9, "y": 2, "matrix": [2, 9]},
+
+            {"x": 0, "y": 3, "matrix": [3, 0]},
+            {"x": 1, "y": 3, "matrix": [3, 1]},
+            {"x": 2, "y": 3, "matrix": [3, 2]},
+            {"x": 3, "y": 3, "matrix": [3, 3]},
+            {"x": 4, "y": 3, "matrix": [3, 4]},
+            {"x": 5, "y": 3, "matrix": [3, 5]},
+            {"x": 6, "y": 3, "matrix": [3, 6]},
+            {"x": 7, "y": 3, "matrix": [3, 7]},
+            {"x": 8, "y": 3, "matrix": [3, 8]},
+            {"x": 9, "y": 3, "matrix": [3, 9]},
+            
+            {"x": 1, "y": 4, "matrix": [4, 1]},
+            {"x": 2, "y": 4, "matrix": [4, 2]},
+            {"x": 3, "y": 4, "matrix": [4, 3]},
+            {"x": 5, "y": 4, "matrix": [4, 5]},
+            {"x": 6, "y": 4, "matrix": [4, 6]},
+            {"x": 7, "y": 4, "matrix": [4, 7]},
+            {"x": 8, "y": 4, "matrix": [4, 8]},
+            {"x": 9, "y": 4, "matrix": [4, 9]},
+
+            {"x": 1, "y": 5, "matrix": [5, 1]},
+            {"x": 2, "y": 5, "matrix": [5, 2]},
+            {"x": 3, "y": 5, "matrix": [5, 3]},
+            {"x": 5, "y": 5, "matrix": [5, 5]},
+            {"x": 6, "y": 5, "matrix": [5, 6]},
+            {"x": 7, "y": 5, "matrix": [5, 7]},
+            {"x": 8, "y": 5, "matrix": [5, 8]},
+
+            {"x": 9, "y": 6, "matrix": [6, 9]},
+
+            {"x": 1, "y": 7, "matrix": [7, 1]},
+            {"x": 3, "y": 7, "matrix": [7, 3]},
+            {"x": 4, "y": 7, "matrix": [7, 4]},
+            {"x": 5, "y": 7, "matrix": [7, 5]},
+            {"x": 6, "y": 7, "matrix": [7, 6]},
+            {"x": 8, "y": 7, "matrix": [7, 8]},
+            {"x": 9, "y": 7, "matrix": [7, 9]},
+
+            {"x": 1, "y": 8, "matrix": [8, 1]},
+            {"x": 3, "y": 8, "matrix": [8, 3]},
+            {"x": 4, "y": 8, "matrix": [8, 4]},
+            {"x": 5, "y": 8, "matrix": [8, 5]},
+            {"x": 6, "y": 8, "matrix": [8, 6]},
+            {"x": 9, "y": 8, "matrix": [8, 9]},
+
+
+            {"x": 2, "y": 9, "matrix": [9, 2]},
+            {"x": 3, "y": 9, "matrix": [9, 3]},
+            {"x": 4, "y": 9, "matrix": [9, 4]},
+            {"x": 5, "y": 9, "matrix": [9, 5]},
+            {"x": 6, "y": 9, "matrix": [9, 6]},
+            {"x": 9, "y": 9, "matrix": [9, 9]},
+
+            {"x": 1, "y": 10, "matrix": [10, 1]},
+            {"x": 2, "y": 10, "matrix": [10, 2]},
+            {"x": 3, "y": 10, "matrix": [10, 3]},
+            {"x": 4, "y": 10, "matrix": [10, 4]},
+            {"x": 5, "y": 10, "matrix": [10, 5]},
+            {"x": 6, "y": 10, "matrix": [10, 6]},
+            {"x": 8, "y": 10, "matrix": [10, 8]},
+            {"x": 9, "y": 10, "matrix": [10, 9]},
+            
+            {"x": 1, "y": 11, "matrix": [11, 1]},
+            {"x": 2, "y": 11, "matrix": [11, 2]},
+            {"x": 3, "y": 11, "matrix": [11, 3]},
+            {"x": 4, "y": 11, "matrix": [11, 4]},
+            {"x": 5, "y": 11, "matrix": [11, 5]},
+            {"x": 6, "y": 11, "matrix": [11, 6]},
+            {"x": 8, "y": 11, "matrix": [11, 8]},
+            {"x": 9, "y": 11, "matrix": [11, 9]},
+
+            {"x": 0, "y": 12, "matrix": [12, 0]},
+            {"x": 1, "y": 12, "matrix": [12, 1]},
+            {"x": 2, "y": 12, "matrix": [12, 2]},
+            {"x": 3, "y": 12, "matrix": [12, 3]},
+            {"x": 4, "y": 12, "matrix": [12, 4]},
+            {"x": 5, "y": 12, "matrix": [12, 5]},
+            {"x": 6, "y": 12, "matrix": [12, 6]},
+            {"x": 7, "y": 12, "matrix": [12, 7]},
+            {"x": 8, "y": 12, "matrix": [12, 8]},
+            {"x": 9, "y": 12, "matrix": [12, 9]},
+
+            {"x": 0, "y": 13, "matrix": [13, 0]},
+            {"x": 1, "y": 13, "matrix": [13, 1]},
+            {"x": 2, "y": 13, "matrix": [13, 2]},
+            {"x": 3, "y": 13, "matrix": [13, 3]},
+            {"x": 4, "y": 13, "matrix": [13, 4]},
+            {"x": 5, "y": 13, "matrix": [13, 5]},
+            {"x": 6, "y": 13, "matrix": [13, 6]},
+            {"x": 7, "y": 13, "matrix": [13, 7]},
+            {"x": 8, "y": 13, "matrix": [13, 8]},
+            {"x": 9, "y": 13, "matrix": [13, 9]},
+
+            {"x": 0, "y": 14, "matrix": [14, 0]},
+            {"x": 1, "y": 14, "matrix": [14, 1]},
+            {"x": 2, "y": 14, "matrix": [14, 2]},
+            {"x": 3, "y": 14, "matrix": [14, 3]},
+            {"x": 4, "y": 14, "matrix": [14, 4]},
+            {"x": 5, "y": 14, "matrix": [14, 5]},
+            {"x": 6, "y": 14, "matrix": [14, 6]},
+            {"x": 7, "y": 14, "matrix": [14, 7]},
+            {"x": 8, "y": 14, "matrix": [14, 8]},
+            {"x": 9, "y": 14, "matrix": [14, 9]},
+
+            {"x": 0, "y": 15, "matrix": [15, 0]},
+            {"x": 1, "y": 15, "matrix": [15, 1]},
+            {"x": 2, "y": 15, "matrix": [15, 2]},
+            {"x": 3, "y": 15, "matrix": [15, 3]},
+            {"x": 4, "y": 15, "matrix": [15, 4]},
+            {"x": 5, "y": 15, "matrix": [15, 5]},
+            {"x": 6, "y": 15, "matrix": [15, 6]},
+            {"x": 7, "y": 15, "matrix": [15, 7]},
+            {"x": 8, "y": 15, "matrix": [15, 8]},
+            {"x": 9, "y": 15, "matrix": [15, 9]}
+            
+
+            ]
+        }
+    }
+}
